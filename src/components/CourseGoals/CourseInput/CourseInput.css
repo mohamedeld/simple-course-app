@@ -1,0 +1,50 @@
+form {
+  padding: 5rem;
+  border: 1px solid #fff;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 70%;
+  position: relative;
+  margin: 20px auto;
+}
+.form-control {
+  width: 100%;
+  margin: 0.5rem;
+}
+
+.form-control label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.form-control input {
+  display: block;
+  width: 100%;
+  border: 1px solid #ccc;
+  font: inherit;
+  line-height: 1.5rem;
+  padding: 0 0.25rem;
+}
+
+.form-control input:focus {
+  outline: none;
+  background: #fad0ec;
+  border-color: #8b005d;
+}
+button {
+  outline: none;
+  border: none;
+  background-color: #8b005d;
+  color: #fad0ec;
+  padding: 0.5rem 1rem;
+  border-radius: 15px;
+  font-size: 1.4rem;
+  cursor: pointer;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
